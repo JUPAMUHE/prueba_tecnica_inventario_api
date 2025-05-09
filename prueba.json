@@ -1,0 +1,52 @@
+{
+    "info": {
+        "name": "API de Gestión de Inventario",
+        "_postman_id": "12345",
+        "description": "Colección de pruebas para la API de Gestión de Inventario"
+    },
+    "item": [
+        {
+            "name": "Autenticación",
+            "item": [
+                {
+                    "name": "Registrar Usuario",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"name\":\"Usuario Test\",\"email\":\"test@example.com\",\"password\":\"password\",\"password_confirmation\":\"password\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost/api/register"
+                        }
+                    }
+                },
+                {
+                    "name": "Iniciar Sesión",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"email\":\"test@example.com\",\"password\":\"password\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost/api/login"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
