@@ -92,11 +92,6 @@ Incluye una colección de Postman con ejemplos de todas las rutas (registro, log
 📥 Importar colección:
 El archivo API_Inventario_Postman_Collection.json se encuentra en la raíz del repositorio.
 
-🌐 Despliegue
-La API está desplegada públicamente en:
-🔗 https://mi-api-inventario.fly.dev (reemplazar con tu URL real)
-
-
 🛡️ Seguridad
 Todos los endpoints están protegidos con auth:sanctum.
 
